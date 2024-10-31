@@ -24,7 +24,7 @@ app.use(express.json()); // Parses incoming JSON requests
 // CORS Configuration
 app.use(
   cors({
-    origin: "http://localhost:5173", // Your frontend URL
+    origin: "https://blogapp-frontend-86um.onrender.com", // Your frontend URL
     credentials: true, // Enable credentials
   })
 );
